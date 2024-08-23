@@ -17,20 +17,20 @@ In this jupyter notebook, I learned how to use the sklearn library to create mod
 
 3) **Model Validation**
 
-In this juptyer notebook I utilized the train_test_split function from the sklearn library to seperate the data in the DataFrame into training data and validation data. I was able to utilize the training data to train my DecisionTreeRegressor model and then
+In this juptyer notebook, I utilized the train_test_split function from the sklearn library to seperate the data in the DataFrame into training data and validation data. I was able to utilize the training data to train my DecisionTreeRegressor model and then
 test the model's ability to predict housing prices based on how well it tested with the validation data. I learned it was better to test the accuracy of a model on new data called validation data rather than data a model was trained on. The accuracy of the model was then calculated through incorporating the MAE(mean absolute error) which is the mean of all the errors(actual-prediction) in housing costs. The mean_absolute_error function allowed for me to do so.
 
 4) **Underfitting and Overfitting**
 
-In this jupyter notebook I learned about how to find a number of max_leaf_nodes that would have the smallest MAE(mean absolute error) when creating a model. Finding the maximum_leaf_nodes amount will prevent overfitting and underfitting.
+In this jupyter notebook, I learned about how to find a number of max_leaf_nodes that would have the smallest MAE(mean absolute error) when creating a model. Finding the maximum_leaf_nodes amount will prevent overfitting and underfitting.
 
 5) **Random Forests**
 
-In the jupyter notebook I learned about and utilized the RandomForestRegressor model from the sklearn library. The purpose of utlizing this model was for me to see how the RandomForestRegressor model utilizing multiple trees to formulate averaged out housing prices is more accurate than a DecisionTreeRegressor model at predicting housing costs.
+In the jupyter notebook, I learned about and utilized the RandomForestRegressor model from the sklearn library. The purpose of utlizing this model was for me to see how the RandomForestRegressor model utilizing multiple trees to formulate averaged out housing prices is more accurate than a DecisionTreeRegressor model at predicting housing costs.
 
 6) **Machine Learning Competition**
 
-In this jupyter notebook I started off by utlizing previous code from the Random Forests notebook. I then trained a new RandomForestRegression model on all of the features and SalePrice data in the train.csv file in order to have an even more accurate and well informed model. I then was able to predict the housing prices of houses in Iowa from the test.csv file. I am currently not completely sure of how well my model did at predicting the housing costs in test.csv as the SalePrice data was not made available to me. A csv file of my final predictions was submitted to the competition.
+In this jupyter notebook, I started off by utlizing previous code from the Random Forests notebook. I then trained a new RandomForestRegression model on all of the features and SalePrice data in the train.csv file in order to have an even more accurate and well informed model. I then was able to predict the housing prices of houses in Iowa from the test.csv file. I am currently not completely sure of how well my model did at predicting the housing costs in test.csv as the SalePrice data was not made available to me. A csv file of my final predictions was submitted to the competition.
 
 ## Installation
 1) **Create a Kaggle Account**
